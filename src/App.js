@@ -1,9 +1,10 @@
 import React from "react";
-import "./website.css";
 import "@google/model-viewer/dist/model-viewer";
-export default function App() {
+import "./website.css";
+
+function App() {
   return (
-    <div id="card">
+    <div className="card">
       <model-viewer
         src="/myroom.glb"
         alt="A 3D model of my room"
@@ -13,3 +14,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
