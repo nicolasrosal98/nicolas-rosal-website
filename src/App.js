@@ -1,6 +1,5 @@
 import React from "react";
 import "@google/model-viewer/dist/model-viewer";
-import "./website.css";
 
 function App() {
   return (
